@@ -1,4 +1,4 @@
-gprompt = require '../../generic_prompt'
+gprompt = require "../../generic_prompt"
 
 gprompt "Your name: ", (name) ->
   gprompt "Your favorite color: ", (color) ->
