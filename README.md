@@ -6,7 +6,7 @@ General-purpose prompt for Node.js and browser
 Usage
 -----
 
-Node.js:
+### Node.js
 
     var gprompt = require("./generic_prompt");
 
@@ -17,7 +17,7 @@ Node.js:
       });
     });
 
-Browser:
+### Browser
 
     gprompt("What's your name?", function(name) {
       gprompt("What's your favorite color?", function(color) {
